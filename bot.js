@@ -226,5 +226,15 @@ function play(guild, song) {
 
 	serverQueue.textChannel.send(`Started playing : **${song.title}**`);
 }
-
+////////
+const devs = ['340556026157727746' , '' , '' , ''];
+const adminprefix = "!";
+client.on('message', message => {
+    var argresult = message.content.split(` `).slice(1).join(' ');
+      if (!devs.includes(message.author.id)) return;
+  if (message.content.startsWith(adminprefix + 'listen')) {
+  client.user.setActivity(argresult , {type:'LISTENING'});
+      message.channel.sendMessage(`**✅   ${argresult}**`)
+  }
+  });
 client.login(process.env.BOT_TOKEN);
