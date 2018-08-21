@@ -2332,7 +2332,6 @@ if (message.content.startsWith(adminprefix + 'setavatar')) {
 });
 
 
-client.login("NDQ3MzYyMzAwNzk4Njk3NDcz.DljyZw.EJXUSw31dX8lkj_OyCZ1ZwUUjCY");
 
 
 client.on('guildMemberAdd',async member => {
