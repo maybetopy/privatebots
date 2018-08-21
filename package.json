@@ -16,6 +16,7 @@
     "opusscript": "0.0.6",
     "canvas-prebuilt": "1.6.5-prerelease.1",
     "jimp": "0.3.5",
-    "moment": "2.22.2"
+    "moment": "2.22.2",
+    "canvas": "1.6.11"
   }
 }
